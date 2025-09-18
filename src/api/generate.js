@@ -1,6 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: "Your-API-Key" });
+const API_KEY = "ENTER-YOUR-API-KEY-HERE";
+const ai = new GoogleGenAI({ apiKey: API_KEY });
 
 export default async function generate(ingredients) {
     let ingredientsString = ingredients;
