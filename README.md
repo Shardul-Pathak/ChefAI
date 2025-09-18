@@ -8,5 +8,14 @@ It helps reduce food waste and gives quick meal ideas.
 ```bash
 git clone https://github.com/example/chef-ai.git
 cd chef-ai
-pip install -r requirements.txt
+npm install
+```
+## Setup API Key
+
+Open the file **`src/api/generate.js`** and replace the placeholder with your API key:
+
+```js
+// src/api/generate.js
+
+const API_KEY = "ENTER-YOUR-API-KEY-HERE";
 ```
