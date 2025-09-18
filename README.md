@@ -1,14 +1,21 @@
-# React + Vite
+# Chef AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Brief
+Chef AI is a simple tool that takes your available ingredients as input and returns possible recipes you can cook.  
+It helps reduce food waste and gives quick meal ideas.
 
-Currently, two official plugins are available:
+## Installation
+```bash
+git clone https://github.com/example/chef-ai.git
+cd chef-ai
+npm install
+```
+## Setup API Key
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Open the file **`src/api/generate.js`** and replace the placeholder with your API key:
 
-## Expanding the ESLint configuration
+```js
+// src/api/generate.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# ChefAI
-# ChefAI
+const API_KEY = "ENTER-YOUR-API-KEY-HERE";
+```
