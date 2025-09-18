@@ -20,6 +20,6 @@ Open the file **`src/api/generate.js`** and replace the placeholder with your AP
 const API_KEY = "ENTER-YOUR-API-KEY-HERE";
 ```
 ## Sample Output
-![O1](ScreenShots/Screenshot 2025-09-18 203927.png)
-![O2](ScreenShots/Screenshot 2025-09-18 203948.png)
-![O2](ScreenShots/Screenshot 2025-09-18 204002.png)
+![O1](ScreenShots/O1.png)
+![O2](ScreenShots/O2.png)
+![O3](ScreenShots/O3.png)
